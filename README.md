@@ -18,7 +18,6 @@ The GridWorks API can be installed directly through the Home Assistant Community
 ### Add GridWorks API as an integration
 - Go to Settings → Devices & Services → Add Integration
 - Search for GridWorks API and select it
-- Follow instructions, and that's it!
 
 ## 2 - Publishing Sensor Data via MQTT
 
