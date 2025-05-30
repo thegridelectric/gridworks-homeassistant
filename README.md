@@ -25,7 +25,11 @@ The GridWorks API can be installed directly through the Home Assistant Community
 - Go to Settings → Devices & Services → Add Integration
 - Search for MQTT and select it
 - Choose "Manually enter the MQTT broker connection details", and enter the MQTT broker details (IP adress, port, etc.)
-- Note: you may need to add the following lines to the end of `mosquito.conf` on the machine that is running the broker:
+- To test the integration, type the following command in the Home Assistant CLI (replace `broker_ip_address`)
+```
+nc -zv broker_ip_address 1883
+```
+Note: you might need to add the following lines to the end of `mosquito.conf` on the machine that is running the broker:
 ```
 listener 1883
 allow_anonymous true
