@@ -33,3 +33,4 @@ The GridWorks API can be installed directly through the Home Assistant Community
 - Create a new automation from scratch
 - Click on the thee-dot menu in the top right and select "Edit in YAML"
 - Paste the content of [send_mqtt_on_change.yaml](https://github.com/thegridelectric/gridworks-homeassistant/blob/main/blueprints/automation/send_mqtt_on_change.yaml) in the YAML editor
+- Adapt the name of the variable to publish as needed
