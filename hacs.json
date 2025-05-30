@@ -1,7 +1,7 @@
 {
     "name": "GridWorks API",
     "content_in_root": false,
-    "domains": ["my_api"],
+    "domains": ["gridworks_api"],
     "country": "🪄"
 }
   
